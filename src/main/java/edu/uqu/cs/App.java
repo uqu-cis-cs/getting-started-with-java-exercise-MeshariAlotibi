@@ -11,10 +11,20 @@ package edu.uqu.cs;
  *      b.	Change <Student ID> to your student ID
  */
  
-class FirstExercise
+
+ // Change FirstExercise To App
+class App
 {
-    private static void mainMethod( String[] args )
+    // Change Private To Public
+    public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        // My Name 
+        String Name = "Meshari Al-otaibi";
+
+        // My ID In University
+        int ID = 443002747;
+
+        // To Print All Variables
+        System.out.println("Hello : "+Name  + "\nMy ID Is : "+ID );
     }
 }
